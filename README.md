@@ -14,3 +14,17 @@ Method-
 4. Now, to improve the security we used variable phase shift keying so that different number of bits are converted from the original sequence to form the modulated signal.
 5. Afterwards, we used socket communication for broadcasting the data so that every receiver can get the data but only the legitimate receiver is aware of the phase change and psk sequence.
 6. After the signal is received, the true receiver can convert it back to its original form, while the eavesdropper would end up with a garbage value each time.
+
+def hurst(ts):
+    """Returns the Hurst Exponent of the time series vector ts"""
+    # Create the range of lag values
+    lags = range(2, 100)
+
+    # Calculate the array of the variances of the lagged differences
+    tau = [sqrt(std(subtract(ts[lag:], ts[:-lag]))) for lag in lags]
+
+    # Use a linear fit to estimate the Hurst Exponent
+    poly = polyfit(log(lags), log(tau), 1)
+
+    # Return the Hurst exponent from the polyfit output
+    return poly[0]*2.0
