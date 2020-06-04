@@ -17,3 +17,4 @@ Method-
 
 import statsmodels.tsa.stattools as ts 
 result=ts.coint(x, y)
+http://www.insightsbot.com/augmented-dickey-fuller-test-in-python/
