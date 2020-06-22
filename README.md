@@ -15,6 +15,4 @@ Method-
 5. Afterwards, we used socket communication for broadcasting the data so that every receiver can get the data but only the legitimate receiver is aware of the phase change and psk sequence.
 6. After the signal is received, the true receiver can convert it back to its original form, while the eavesdropper would end up with a garbage value each time.
 
-import statsmodels.tsa.stattools as ts 
-result=ts.coint(x, y)
-http://www.insightsbot.com/augmented-dickey-fuller-test-in-python/
+https://www.google.co.in/search?q=glowing%20flashlight%20animated&tbm=isch&hl=en&hl=en&tbs=rimg%3ACYKm8Jtfqdh2ImABjl5O5QA0GdRhb9WtkR0nqBqG2H8-Xnw9IzC7MQBgTQj9ePWc11iCZ3uvpaOn149SwmD2DQBZxzNnLXiQPsVxAq-L9sa3w18zGUAfMA9UJsKUZi6Agbq0At51II6TY7IqEgkBjl5O5QA0GRHKTxifA1fCgSoSCdRhb9WtkR0nERzvSmiZKn6kKhIJqBqG2H8-XnwRIiwIopYwajQqEgk9IzC7MQBgTREuyd_1wC5M8DyoSCQj9ePWc11iCEXnAEVeaxSbKKhIJZ3uvpaOn148Rj4zYcwPCjg8qEglSwmD2DQBZxxHFoVXfXsRFhCoSCTNnLXiQPsVxEYEaU8V28YPIKhIJAq-L9sa3w18RlUYc_1kinBmIqEgkzGUAfMA9UJhEZQPV_1xO8nYioSCcKUZi6Agbq0EY-u2bW-hhJQKhIJAt51II6TY7IRW5x0RCqxrXhhmmqMLS-inTU&authuser=0&ved=0CBsQuIIBahcKEwi4r7mwgJbqAhUAAAAAHQAAAAAQKg&biw=1519&bih=674
